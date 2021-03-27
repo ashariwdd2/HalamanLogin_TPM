@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background">
+
+    <TextView
+        android:id="@+id/judul"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="TAMPILAN DASHBOARD :"
+        android:layout_marginLeft="55dp"
+        android:layout_marginTop="25dp"
+        android:layout_marginBottom="50dp"
+        android:textColor="#fff"
+        android:textSize="26dp"/>
+
+    <ImageView
+        android:id="@+id/logo"
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="30dp"
+        android:layout_below="@+id/judul"
+        android:src="@drawable/logojogja"/>
+
+    <Button
+        android:id="@+id/btnlgn"
+        android:layout_width="350dp"
+        android:layout_height="330dp"
+        android:layout_below="@+id/logo"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+        android:background="#66FFC107"
+
+        android:hint="Kementerian Komunikasi dan Informatika mempunyai tugas menyelenggarakan urusan pemerintahan di bidang komunikasi dan informatika untuk membantu Presiden dalam menyelenggarakan pemerintahan negara. Kementerian Kominfo dipimpin oleh seorang Menteri Komunikasi dan Informatika (Menkominfo) yang sejak tanggal 23 Oktober 2019 dijabat oleh Johnny Gerard Plate."
+        android:textColorHint="#fff" />
+
+</RelativeLayout>
